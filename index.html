@@ -83,14 +83,14 @@
         return function(props) {
           return react.createElement(
             'div',
-            {style: {position: 'absolute', left: 0, width: '120vw', height: '120vh'}},
+            {style: {position: 'relative', left: 0, width: '200vw', height: '120vh'}},
             react.createElement(
               keplerGl.KeplerGl,
               {
                 mapboxApiAccessToken: mapboxToken,
                 id: 'map',
-                width: props.width || 2000,
-                height: props.height || 1000
+                width: 1300,
+                // height: props.height || 1000
               }
             )
           )
