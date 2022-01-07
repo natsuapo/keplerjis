@@ -26,8 +26,10 @@
       body {margin: 0; padding: 0; overflow: hidden;}
       .maps {width:100vw; height:100vh}
       .maps > div {width:100vw; height:100vh}
+      .side-bar {height:650px}
       /*.maps > div > div {width:100vw !important}*/
       mapboxgl-map > {width:100vw !important;height:100vh}
+
     </style>
 
     <!--MapBox token-->
@@ -94,7 +96,7 @@
                 mapboxApiAccessToken: mapboxToken,
                 id: 'map',
                 width: props.width || 1500,
-                height: props.height || 1000
+                height: props.height || 800
               }
             )
           )
