@@ -1,0 +1,97 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "Layer", {
+  enumerable: true,
+  get: function get() {
+    return _baseLayer["default"];
+  }
+});
+Object.defineProperty(exports, "OVERLAY_TYPE", {
+  enumerable: true,
+  get: function get() {
+    return _baseLayer.OVERLAY_TYPE;
+  }
+});
+Object.defineProperty(exports, "colorMaker", {
+  enumerable: true,
+  get: function get() {
+    return _baseLayer.colorMaker;
+  }
+});
+Object.defineProperty(exports, "LAYER_VIS_CONFIGS", {
+  enumerable: true,
+  get: function get() {
+    return _layerFactory.LAYER_VIS_CONFIGS;
+  }
+});
+exports.LayerClasses = exports.KeplerGlLayers = void 0;
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var _pointLayer = _interopRequireDefault(require("./point-layer/point-layer"));
+
+var _arcLayer = _interopRequireDefault(require("./arc-layer/arc-layer"));
+
+var _lineLayer = _interopRequireDefault(require("./line-layer/line-layer"));
+
+var _gridLayer = _interopRequireDefault(require("./grid-layer/grid-layer"));
+
+var _hexagonLayer = _interopRequireDefault(require("./hexagon-layer/hexagon-layer"));
+
+var _geojsonLayer = _interopRequireDefault(require("./geojson-layer/geojson-layer"));
+
+var _clusterLayer = _interopRequireDefault(require("./cluster-layer/cluster-layer"));
+
+var _iconLayer = _interopRequireDefault(require("./icon-layer/icon-layer"));
+
+var _heatmapLayer = _interopRequireDefault(require("./heatmap-layer/heatmap-layer"));
+
+var _h3HexagonLayer = _interopRequireDefault(require("./h3-hexagon-layer/h3-hexagon-layer"));
+
+var _scenegraphLayer = _interopRequireDefault(require("./scenegraph-layer/scenegraph-layer"));
+
+var _tripLayer = _interopRequireDefault(require("./trip-layer/trip-layer"));
+
+var _s2GeometryLayer = _interopRequireDefault(require("./s2-geometry-layer/s2-geometry-layer"));
+
+var _types = require("./types");
+
+var _keplerJismeshLayer = _interopRequireDefault(require("./jismesh-layer/kepler-jismesh-layer"));
+
+var _keplerJismeshAggLayer = _interopRequireDefault(require("./jismesh-agg-layer/kepler-jismesh-agg-layer"));
+
+var _baseLayer = _interopRequireWildcard(require("./base-layer"));
+
+var _layerFactory = require("./layer-factory");
+
+var _LayerClasses;
+
+// individual layers
+var KeplerGlLayers = {
+  PointLayer: _pointLayer["default"],
+  ArcLayer: _arcLayer["default"],
+  LineLayer: _lineLayer["default"],
+  GridLayer: _gridLayer["default"],
+  HexagonLayer: _hexagonLayer["default"],
+  GeojsonLayer: _geojsonLayer["default"],
+  ClusterLayer: _clusterLayer["default"],
+  IconLayer: _iconLayer["default"],
+  HeatmapLayer: _heatmapLayer["default"],
+  H3Layer: _h3HexagonLayer["default"],
+  ScenegraphLayer: _scenegraphLayer["default"],
+  TripLayer: _tripLayer["default"],
+  S2GeometryLayer: _s2GeometryLayer["default"],
+  JISMeshAggLayer: _keplerJismeshAggLayer["default"],
+  MeshcodeLayer: _keplerJismeshLayer["default"]
+};
+exports.KeplerGlLayers = KeplerGlLayers;
+var LayerClasses = (_LayerClasses = {}, (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.point, _pointLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.arc, _arcLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.line, _lineLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.grid, _gridLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.hexagon, _hexagonLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.geojson, _geojsonLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.cluster, _clusterLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.icon, _iconLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.heatmap, _heatmapLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.hexagonId, _h3HexagonLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES['3D'], _scenegraphLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.trip, _tripLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.s2, _s2GeometryLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.meshagg, _keplerJismeshAggLayer["default"]), (0, _defineProperty2["default"])(_LayerClasses, _types.LAYER_TYPES.meshcode, _keplerJismeshLayer["default"]), _LayerClasses);
+exports.LayerClasses = LayerClasses;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9sYXllcnMvaW5kZXguanMiXSwibmFtZXMiOlsiS2VwbGVyR2xMYXllcnMiLCJQb2ludExheWVyIiwiQXJjTGF5ZXIiLCJMaW5lTGF5ZXIiLCJHcmlkTGF5ZXIiLCJIZXhhZ29uTGF5ZXIiLCJHZW9qc29uTGF5ZXIiLCJDbHVzdGVyTGF5ZXIiLCJJY29uTGF5ZXIiLCJIZWF0bWFwTGF5ZXIiLCJIM0xheWVyIiwiU2NlbmVncmFwaExheWVyIiwiVHJpcExheWVyIiwiUzJHZW9tZXRyeUxheWVyIiwiSklTTWVzaEFnZ0xheWVyIiwiTWVzaGNvZGVMYXllciIsIkxheWVyQ2xhc3NlcyIsIkxBWUVSX1RZUEVTIiwicG9pbnQiLCJhcmMiLCJsaW5lIiwiZ3JpZCIsImhleGFnb24iLCJnZW9qc29uIiwiY2x1c3RlciIsImljb24iLCJoZWF0bWFwIiwiaGV4YWdvbklkIiwidHJpcCIsInMyIiwibWVzaGFnZyIsIm1lc2hjb2RlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBb0JBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQU1BOztBQXlDQTs7OztBQXZDQTtBQUNPLElBQU1BLGNBQWMsR0FBRztBQUM1QkMsRUFBQUEsVUFBVSxFQUFWQSxzQkFENEI7QUFFNUJDLEVBQUFBLFFBQVEsRUFBUkEsb0JBRjRCO0FBRzVCQyxFQUFBQSxTQUFTLEVBQVRBLHFCQUg0QjtBQUk1QkMsRUFBQUEsU0FBUyxFQUFUQSxxQkFKNEI7QUFLNUJDLEVBQUFBLFlBQVksRUFBWkEsd0JBTDRCO0FBTTVCQyxFQUFBQSxZQUFZLEVBQVpBLHdCQU40QjtBQU81QkMsRUFBQUEsWUFBWSxFQUFaQSx3QkFQNEI7QUFRNUJDLEVBQUFBLFNBQVMsRUFBVEEscUJBUjRCO0FBUzVCQyxFQUFBQSxZQUFZLEVBQVpBLHdCQVQ0QjtBQVU1QkMsRUFBQUEsT0FBTyxFQUFQQSwwQkFWNEI7QUFXNUJDLEVBQUFBLGVBQWUsRUFBZkEsMkJBWDRCO0FBWTVCQyxFQUFBQSxTQUFTLEVBQVRBLHFCQVo0QjtBQWE1QkMsRUFBQUEsZUFBZSxFQUFmQSwyQkFiNEI7QUFjNUJDLEVBQUFBLGVBQWUsRUFBZkEsaUNBZDRCO0FBZTVCQyxFQUFBQSxhQUFhLEVBQWJBO0FBZjRCLENBQXZCOztBQW1CQSxJQUFNQyxZQUFZLHdFQUN0QkMsbUJBQVlDLEtBRFUsRUFDRmpCLHNCQURFLG1EQUV0QmdCLG1CQUFZRSxHQUZVLEVBRUpqQixvQkFGSSxtREFHdEJlLG1CQUFZRyxJQUhVLEVBR0hqQixxQkFIRyxtREFJdEJjLG1CQUFZSSxJQUpVLEVBSUhqQixxQkFKRyxtREFLdEJhLG1CQUFZSyxPQUxVLEVBS0FqQix3QkFMQSxtREFNdEJZLG1CQUFZTSxPQU5VLEVBTUFqQix3QkFOQSxtREFPdEJXLG1CQUFZTyxPQVBVLEVBT0FqQix3QkFQQSxtREFRdEJVLG1CQUFZUSxJQVJVLEVBUUhqQixxQkFSRyxtREFTdEJTLG1CQUFZUyxPQVRVLEVBU0FqQix3QkFUQSxtREFVdEJRLG1CQUFZVSxTQVZVLEVBVUVqQiwwQkFWRixtREFXdEJPLG1CQUFZLElBQVosQ0FYc0IsRUFXRk4sMkJBWEUsbURBWXRCTSxtQkFBWVcsSUFaVSxFQVlIaEIscUJBWkcsbURBYXRCSyxtQkFBWVksRUFiVSxFQWFMaEIsMkJBYkssbURBY3RCSSxtQkFBWWEsT0FkVSxFQWNEaEIsaUNBZEMsbURBZXRCRyxtQkFBWWMsUUFmVSxFQWVBaEIsOEJBZkEsaUJBQWxCIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQ29weXJpZ2h0IChjKSAyMDIyIFViZXIgVGVjaG5vbG9naWVzLCBJbmMuXG4vL1xuLy8gUGVybWlzc2lvbiBpcyBoZXJlYnkgZ3JhbnRlZCwgZnJlZSBvZiBjaGFyZ2UsIHRvIGFueSBwZXJzb24gb2J0YWluaW5nIGEgY29weVxuLy8gb2YgdGhpcyBzb2Z0d2FyZSBhbmQgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uIGZpbGVzICh0aGUgXCJTb2Z0d2FyZVwiKSwgdG8gZGVhbFxuLy8gaW4gdGhlIFNvZnR3YXJlIHdpdGhvdXQgcmVzdHJpY3Rpb24sIGluY2x1ZGluZyB3aXRob3V0IGxpbWl0YXRpb24gdGhlIHJpZ2h0c1xuLy8gdG8gdXNlLCBjb3B5LCBtb2RpZnksIG1lcmdlLCBwdWJsaXNoLCBkaXN0cmlidXRlLCBzdWJsaWNlbnNlLCBhbmQvb3Igc2VsbFxuLy8gY29waWVzIG9mIHRoZSBTb2Z0d2FyZSwgYW5kIHRvIHBlcm1pdCBwZXJzb25zIHRvIHdob20gdGhlIFNvZnR3YXJlIGlzXG4vLyBmdXJuaXNoZWQgdG8gZG8gc28sIHN1YmplY3QgdG8gdGhlIGZvbGxvd2luZyBjb25kaXRpb25zOlxuLy9cbi8vIFRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIHNoYWxsIGJlIGluY2x1ZGVkIGluXG4vLyBhbGwgY29waWVzIG9yIHN1YnN0YW50aWFsIHBvcnRpb25zIG9mIHRoZSBTb2Z0d2FyZS5cbi8vXG4vLyBUSEUgU09GVFdBUkUgSVMgUFJPVklERUQgXCJBUyBJU1wiLCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTIE9SXG4vLyBJTVBMSUVELCBJTkNMVURJTkcgQlVUIE5PVCBMSU1JVEVEIFRPIFRIRSBXQVJSQU5USUVTIE9GIE1FUkNIQU5UQUJJTElUWSxcbi8vIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBOT05JTkZSSU5HRU1FTlQuIElOIE5PIEVWRU5UIFNIQUxMIFRIRVxuLy8gQVVUSE9SUyBPUiBDT1BZUklHSFQgSE9MREVSUyBCRSBMSUFCTEUgRk9SIEFOWSBDTEFJTSwgREFNQUdFUyBPUiBPVEhFUlxuLy8gTElBQklMSVRZLCBXSEVUSEVSIElOIEFOIEFDVElPTiBPRiBDT05UUkFDVCwgVE9SVCBPUiBPVEhFUldJU0UsIEFSSVNJTkcgRlJPTSxcbi8vIE9VVCBPRiBPUiBJTiBDT05ORUNUSU9OIFdJVEggVEhFIFNPRlRXQVJFIE9SIFRIRSBVU0UgT1IgT1RIRVIgREVBTElOR1MgSU5cbi8vIFRIRSBTT0ZUV0FSRS5cblxuaW1wb3J0IHtkZWZhdWx0IGFzIFBvaW50TGF5ZXJ9IGZyb20gJy4vcG9pbnQtbGF5ZXIvcG9pbnQtbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEFyY0xheWVyfSBmcm9tICcuL2FyYy1sYXllci9hcmMtbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIExpbmVMYXllcn0gZnJvbSAnLi9saW5lLWxheWVyL2xpbmUtbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEdyaWRMYXllcn0gZnJvbSAnLi9ncmlkLWxheWVyL2dyaWQtbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEhleGFnb25MYXllcn0gZnJvbSAnLi9oZXhhZ29uLWxheWVyL2hleGFnb24tbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEdlb2pzb25MYXllcn0gZnJvbSAnLi9nZW9qc29uLWxheWVyL2dlb2pzb24tbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIENsdXN0ZXJMYXllcn0gZnJvbSAnLi9jbHVzdGVyLWxheWVyL2NsdXN0ZXItbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEljb25MYXllcn0gZnJvbSAnLi9pY29uLWxheWVyL2ljb24tbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEhlYXRtYXBMYXllcn0gZnJvbSAnLi9oZWF0bWFwLWxheWVyL2hlYXRtYXAtbGF5ZXInO1xuaW1wb3J0IHtkZWZhdWx0IGFzIEgzTGF5ZXJ9IGZyb20gJy4vaDMtaGV4YWdvbi1sYXllci9oMy1oZXhhZ29uLWxheWVyJztcbmltcG9ydCB7ZGVmYXVsdCBhcyBTY2VuZWdyYXBoTGF5ZXJ9IGZyb20gJy4vc2NlbmVncmFwaC1sYXllci9zY2VuZWdyYXBoLWxheWVyJztcbmltcG9ydCB7ZGVmYXVsdCBhcyBUcmlwTGF5ZXJ9IGZyb20gJy4vdHJpcC1sYXllci90cmlwLWxheWVyJztcbmltcG9ydCB7ZGVmYXVsdCBhcyBTMkdlb21ldHJ5TGF5ZXJ9IGZyb20gJy4vczItZ2VvbWV0cnktbGF5ZXIvczItZ2VvbWV0cnktbGF5ZXInO1xuaW1wb3J0IHtMQVlFUl9UWVBFU30gZnJvbSAnLi90eXBlcyc7XG5pbXBvcnQge2RlZmF1bHQgYXMgTWVzaGNvZGVMYXllcn0gZnJvbSAnLi9qaXNtZXNoLWxheWVyL2tlcGxlci1qaXNtZXNoLWxheWVyJztcbmltcG9ydCB7ZGVmYXVsdCBhcyBKSVNNZXNoQWdnTGF5ZXJ9IGZyb20gJy4vamlzbWVzaC1hZ2ctbGF5ZXIva2VwbGVyLWppc21lc2gtYWdnLWxheWVyJztcblxuXG5cblxuLy8gYmFzZSBsYXllclxuZXhwb3J0IHtkZWZhdWx0IGFzIExheWVyLCBPVkVSTEFZX1RZUEUsIGNvbG9yTWFrZXJ9IGZyb20gJy4vYmFzZS1sYXllcic7XG5cbi8vIGluZGl2aWR1YWwgbGF5ZXJzXG5leHBvcnQgY29uc3QgS2VwbGVyR2xMYXllcnMgPSB7XG4gIFBvaW50TGF5ZXIsXG4gIEFyY0xheWVyLFxuICBMaW5lTGF5ZXIsXG4gIEdyaWRMYXllcixcbiAgSGV4YWdvbkxheWVyLFxuICBHZW9qc29uTGF5ZXIsXG4gIENsdXN0ZXJMYXllcixcbiAgSWNvbkxheWVyLFxuICBIZWF0bWFwTGF5ZXIsXG4gIEgzTGF5ZXIsXG4gIFNjZW5lZ3JhcGhMYXllcixcbiAgVHJpcExheWVyLFxuICBTMkdlb21ldHJ5TGF5ZXIsXG4gIEpJU01lc2hBZ2dMYXllcixcbiAgTWVzaGNvZGVMYXllcixcblxufTtcblxuZXhwb3J0IGNvbnN0IExheWVyQ2xhc3NlcyA9IHtcbiAgW0xBWUVSX1RZUEVTLnBvaW50XTogUG9pbnRMYXllcixcbiAgW0xBWUVSX1RZUEVTLmFyY106IEFyY0xheWVyLFxuICBbTEFZRVJfVFlQRVMubGluZV06IExpbmVMYXllcixcbiAgW0xBWUVSX1RZUEVTLmdyaWRdOiBHcmlkTGF5ZXIsXG4gIFtMQVlFUl9UWVBFUy5oZXhhZ29uXTogSGV4YWdvbkxheWVyLFxuICBbTEFZRVJfVFlQRVMuZ2VvanNvbl06IEdlb2pzb25MYXllcixcbiAgW0xBWUVSX1RZUEVTLmNsdXN0ZXJdOiBDbHVzdGVyTGF5ZXIsXG4gIFtMQVlFUl9UWVBFUy5pY29uXTogSWNvbkxheWVyLFxuICBbTEFZRVJfVFlQRVMuaGVhdG1hcF06IEhlYXRtYXBMYXllcixcbiAgW0xBWUVSX1RZUEVTLmhleGFnb25JZF06IEgzTGF5ZXIsXG4gIFtMQVlFUl9UWVBFU1snM0QnXV06IFNjZW5lZ3JhcGhMYXllcixcbiAgW0xBWUVSX1RZUEVTLnRyaXBdOiBUcmlwTGF5ZXIsXG4gIFtMQVlFUl9UWVBFUy5zMl06IFMyR2VvbWV0cnlMYXllcixcbiAgW0xBWUVSX1RZUEVTLm1lc2hhZ2ddOkpJU01lc2hBZ2dMYXllcixcbiAgW0xBWUVSX1RZUEVTLm1lc2hjb2RlXTpNZXNoY29kZUxheWVyLFxuXG59O1xuXG5leHBvcnQge0xBWUVSX1ZJU19DT05GSUdTfSBmcm9tICcuL2xheWVyLWZhY3RvcnknO1xuIl19
