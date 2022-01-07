@@ -1,6 +1,5 @@
-# Umd client
+# Enhanced Kepler.gl for JISMesh Visualization
 
-A single html file loading kepler.gl. This html is loading kepler.gl and its dependencies from the script tags in the header. You can embed this html in your Medium or other single page blog page.
 
 
 ### Usage

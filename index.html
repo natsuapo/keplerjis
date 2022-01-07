@@ -24,6 +24,10 @@
 
     <style type="text/css">
       body {margin: 0; padding: 0; overflow: hidden;}
+      .maps {width:100vw; height:100vh}
+      .maps > div {width:100vw; height:100vh}
+      /*.maps > div > div {width:100vw !important}*/
+      mapboxgl-map > {width:100vw !important;height:100vh}
     </style>
 
     <!--MapBox token-->
@@ -83,14 +87,14 @@
         return function(props) {
           return react.createElement(
             'div',
-            {style: {position: 'relative', left: 0, width: '200vw', height: '120vh'}},
+            {style: {position: 'relative', left: 0, width: '100vw', height: '100vh'}},
             react.createElement(
               keplerGl.KeplerGl,
               {
                 mapboxApiAccessToken: mapboxToken,
                 id: 'map',
-                width: 1100,
-                // height: props.height || 1000
+                width: props.width || 1500,
+                height: props.height || 1000
               }
             )
           )
