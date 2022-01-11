@@ -18,6 +18,8 @@ In this demo, the following functions are available:
 
 ### JISMesh Visualization:
 - For meshcode based aggregation, choosing JIS(ID) layer type. Basically, the system can detect meshcode field.
+  - Loading spatial data -> Choose layer type **JIS(ID)**
+  ![jismesh](figs/meshid_layer_choose.png)
   - The system can automatically detect the field meshcode for data visualization, for other field name, you need to choose it in the item selector.
    ![jismesh](figs/meshcode_field_choose.png)
 
