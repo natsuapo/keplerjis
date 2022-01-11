@@ -56,10 +56,10 @@ In this demo, the following functions are available:
 
 
 ### implementation:
-Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 32:
+Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40:
 
 ```js
- const MAPBOX_TOKEN = 'PROVIDE_MAPBOX_TOKEN';
+ const MAPBOX_TOKEN = YOUR_MAPBOX_TOKEN;
 ```
 
 
