@@ -54,13 +54,15 @@ In this demo, the following functions are available:
   ![](figs/delete_column.png)
 
 
+### (Update 2022/1/18) Base map of 国土地理院, OSM and Carto Dark
+-
+
+
 
 ### implementation:
-Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40:
+~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
-```js
- const MAPBOX_TOKEN = YOUR_MAPBOX_TOKEN;
-```
+In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for open tiles like
 
 
 
