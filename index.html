@@ -51,9 +51,6 @@
     <!-- Load our React component. -->
     <script>
       /* Validate Mapbox Token */
-      if ((MAPBOX_TOKEN || '') === '' || MAPBOX_TOKEN === 'PROVIDE_MAPBOX_TOKEN') {
-        alert(WARNING_MESSAGE);
-      }
 
       /** STORE **/
       const reducers = (function createReducers(redux, keplerGl) {

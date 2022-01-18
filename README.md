@@ -55,14 +55,16 @@ In this demo, the following functions are available:
 
 
 ### (Update 2022/1/18) Base map of 国土地理院, OSM and Carto Dark
--
+- The updating include:
+  - Make it possible for Kepler.gl to handle the tiles that are not in Mapbox format.
+  - Change the default base map and view port settings and make it easier for Japanese user to use.
 
 
 
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
-In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for open tiles like
+In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for several open tiles such as the base map provided by 国土地理院 and open street map.
 
 
 
