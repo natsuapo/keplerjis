@@ -63,6 +63,12 @@ In this demo, the following functions are available:
 
 
 
+### Current enhancement plan: 
+- Legend enhancement; 
+- Layer delete enhancement; 
+
+**Any request of enhancing Kepler.gl will be welcome**
+
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
