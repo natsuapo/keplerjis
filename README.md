@@ -58,22 +58,13 @@ In this demo, the following functions are available:
 - The updating include:
   - Make it possible for Kepler.gl to handle the tiles that are not in Mapbox format.
   - Change the default base map and view port settings and make it easier for Japanese user to use.
-- Adding processing panel (Beta)
-  - The processing functions are still under debugging, so currently using processing function is not recommended. 
 
 
-
-### Current enhancement plan: 
-- Legend enhancement; 
-- Layer delete enhancement; 
-
-**Any request of enhancing Kepler.gl will be welcome**
 
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
 In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for several open tiles such as the base map provided by 国土地理院 and open street map.
-
 
 
 
