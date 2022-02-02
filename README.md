@@ -55,10 +55,13 @@ In this demo, the following functions are available:
 
 
 ### (Update 2022/1/18) Base map of 国土地理院, OSM and Carto Dark
-- The updating include:
+- The update includes:
   - Make it possible for Kepler.gl to handle the tiles that are not in Mapbox format.
   - Change the default base map and view port settings and make it easier for Japanese user to use.
 
+### (Update 2022/2/2) Zoom to layer function
+- The update includes:
+  - Add a zoom to layer button for each layer in the layer configurator. Anytime when you click the button, the map view will be returned to the layer extent.
 
 
 ### implementation:
