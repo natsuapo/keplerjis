@@ -63,6 +63,7 @@ In this demo, the following functions are available:
 - The update includes:
   - Add a zoom to layer button for each layer in the layer configurator. Anytime when you click the button, the map view will be returned to the layer extent.
 
+![image](https://user-images.githubusercontent.com/8382478/152116121-23b1a0c7-eff3-4c47-a70d-c087cd88ecf6.png)
 
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
