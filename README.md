@@ -71,7 +71,8 @@ In this demo, the following functions are available:
 In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for several open tiles such as the base map provided by 国土地理院 and open street map.
 
 
-
+### Ideas and plans:
+- Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons. 
 
 
 
