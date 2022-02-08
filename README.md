@@ -73,7 +73,6 @@ In the new version, mapbox is not anymore utilized for map visualization. Instea
 
 ### Ideas and plans:
 - Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons. 
-
-
+- Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
 
 
