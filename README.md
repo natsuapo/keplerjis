@@ -63,15 +63,17 @@ In this demo, the following functions are available:
 - The update includes:
   - Add a zoom to layer button for each layer in the layer configurator. Anytime when you click the button, the map view will be returned to the layer extent.
 
+![image](https://user-images.githubusercontent.com/8382478/152116121-23b1a0c7-eff3-4c47-a70d-c087cd88ecf6.png)
+
+### (update 2022/2/10) IconLayer enhanced:
+- Currently, IconLayer can support the visualization of extra icons listed in Mapbox Maki.
 
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
 In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for several open tiles such as the base map provided by 国土地理院 and open street map.
 
-
-
-
-
-
+### Ideas and plans:
+- [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
+- [ ] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
 
