@@ -68,6 +68,9 @@ In this demo, the following functions are available:
 ### (update 2022/2/10) IconLayer enhanced:
 - Currently, IconLayer can support the visualization of extra icons listed in Mapbox Maki.
 
+### (update 2022/2/15) Modifying several actions:
+- This action modification part is for creating dashboard.
+
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
