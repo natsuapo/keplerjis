@@ -92,8 +92,8 @@
               {
                 mapboxApiAccessToken: mapboxToken,
                 id: 'map',
-                width: props.width || 1500,
-                height: props.height || 800
+                width: props.width || window.screen.width,
+                height: props.height || window.screen.height
               }
             )
           )
