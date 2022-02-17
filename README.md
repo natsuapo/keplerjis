@@ -49,7 +49,10 @@ In this demo, the following functions are available:
 - Input files that suitable for this layer:
   - any files with meshcode columns. More powerful with other statistic attributes.
 - This layer is very powerful in the context of dashboard visualization. (with time filters, etc.)
-- Examples.
+- Example: 
+<img width="1416" alt="image" src="https://user-images.githubusercontent.com/8382478/154476922-08eb9000-881a-4cd2-b0e3-deb2fa186cb1.png">
+<img width="1424" alt="image" src="https://user-images.githubusercontent.com/8382478/154477073-6f315075-424e-40c7-b64f-36a77aca3951.png">
+
 
 
 
