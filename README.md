@@ -41,6 +41,17 @@ In this demo, the following functions are available:
   ![](figs/mesh_level_4.png)
 
 
+### (Update 02/17) JISMesh Reaggregation:
+- This layer enhances the old point and mesh layer for aggregation visualization.
+- This layer will be powerful in the following cases:
+     - If you want to know the aggregation result in a specific time window.
+     - If you want to change the mesh unit and view the aggregation results.
+- Input files that suitable for this layer:
+  - any files with meshcode columns. More powerful with other statistic attributes.
+- This layer is very powerful in the context of dashboard visualization. (with time filters, etc.)
+- Examples.
+
+
 
 ### Google takeout data loading:
 - This demo also supports google takeout data loading and visualizing.
