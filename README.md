@@ -82,8 +82,6 @@ In this demo, the following functions are available:
 ### (update 2022/2/15) Modifying several actions:
 - This action modification part is for creating dashboard.
 
-### (update 2022/2/28) Modifying filtering setting and removing part. (This is for dashboard devlopment, not really important to general users)
-
 ### implementation:
 ~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
 
@@ -91,5 +89,5 @@ In the new version, mapbox is not anymore utilized for map visualization. Instea
 
 ### Ideas and plans:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
-- [x] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
+- [ ] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
 
