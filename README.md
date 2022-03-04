@@ -86,7 +86,16 @@ In this demo, the following functions are available:
 - (update 2022/3/3) Modify layer/filter/datasource remove part;
 
 ## implementation:
-In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for several open tiles such as the base map provided by 国土地理院 and open street map.
+- Directly implement this repo: 
+  - Since it is totally a static website, you can directly clone it and run the html page.
+ 
+- Implement to Jupyter environment: 
+  - Map component settings are the same as original Kepler extension in Jupyter, but you need to save your map as an html and then use IFrame to visualize it in Jupyter. 
+  - Firstly, you need to modify the source code of `static/keplergl.html` in the path of keplergl package. Replace `<script src="https://unpkg.com/kepler.gl@2.3.2/umd/keplergl.min.js" crossorigin>` with  `<script src="https://natsuapo.github.io/keplerjis/keplergl.min.js" crossorigin>`
+  - Then use the following code example for visualization: 
+  ![image](https://user-images.githubusercontent.com/8382478/156770773-a2dfb8cf-d9b7-4b01-90a0-166aca11346f.png)
+
+
 
 ## Ideas and plans:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
