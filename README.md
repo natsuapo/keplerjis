@@ -14,9 +14,10 @@ In this demo, the following functions are available:
   - Currently, the enhanced part is only in English, the Japanese version will be established later.
   - You will need internet to load the base map.
 
-## Usage
+## Mainly enhanced functions:
 
-### JISMesh Visualization:
+## Layer visualization:
+#### JISMesh Visualization:
 - For meshcode based aggregation, choosing JIS(ID) layer type. Basically, the system can detect meshcode field.
   - Loading spatial data -> Choose layer type **JIS(ID)**
   ![jismesh](figs/meshid_layer_choose.png)
@@ -26,8 +27,7 @@ In this demo, the following functions are available:
 - The JisMesh layer extends column layer, so it is able to load big jismesh for visualization. However, the boundary will be automatically generalized (like what is shown above) for reducing memory usage, but if you zoom in, you will find the accurate bounds for each grid.
   - When loading big jismesh, the loading part will take time while moving viewport the rendering is rather smooth.
 
-
-### JISMesh aggregation:
+#### JISMesh aggregation:
 - For point data in Japan, choosing JIS(Agg) layer type.
   - Loading spatial data -> Choose layer type **JIS(Agg)**
   ![jismesh](figs/mesh_choose.png)
@@ -40,8 +40,7 @@ In this demo, the following functions are available:
   - mesh level 4:
   ![](figs/mesh_level_4.png)
 
-
-### (Update 02/17) JISMesh Reaggregation:
+#### (Update 02/17) JISMesh Reaggregation:
 - This layer enhances the old point and mesh layer for aggregation visualization.
 - This layer will be powerful in the following cases:
      - If you want to know the aggregation result in a specific time window.
@@ -49,45 +48,47 @@ In this demo, the following functions are available:
 - Input files that suitable for this layer:
   - any files with meshcode columns. More powerful with other statistic attributes.
 - This layer is very powerful in the context of dashboard visualization. (with time filters, etc.)
-- Examples.
+- Example with the same file (dummy data) in different mesh level.
+<img width="1416" alt="image" src="https://user-images.githubusercontent.com/8382478/154476922-08eb9000-881a-4cd2-b0e3-deb2fa186cb1.png">
+<img width="1424" alt="image" src="https://user-images.githubusercontent.com/8382478/154477073-6f315075-424e-40c7-b64f-36a77aca3951.png">
+
+#### Zoom to layer function
+- The update includes:
+  - Add a zoom to layer button for each layer in the layer configurator. Anytime when you click the button, the map view will be returned to the layer extent.
+
+![image](https://user-images.githubusercontent.com/8382478/152116121-23b1a0c7-eff3-4c47-a70d-c087cd88ecf6.png)
+
+#### enhanced IconLayer:
+- Currently, IconLayer can support the visualization of extra icons listed in Mapbox Maki.
 
 
+## Data loading and processing:
 
-### Google takeout data loading:
+#### Google takeout data loading:
 - This demo also supports google takeout data loading and visualizing.
   - Support loading both google gps data and google semantic data;
      - For sementic data: two data sources will be generated;
      - For GPS data: one datasource;
   ![](figs/google_takeout_data.png)
 
-### Field deleting:
+#### Field deleting:
 - After opening the data table of a specific datasource.You can choose to delete any field.
   ![](figs/delete_column.png)
 
-
-### (Update 2022/1/18) Base map of 国土地理院, OSM and Carto Dark
+## Basemap visualization:
+### Base map of 国土地理院, OSM and Carto Dark
 - The update includes:
   - Make it possible for Kepler.gl to handle the tiles that are not in Mapbox format.
   - Change the default base map and view port settings and make it easier for Japanese user to use.
 
-### (Update 2022/2/2) Zoom to layer function
-- The update includes:
-  - Add a zoom to layer button for each layer in the layer configurator. Anytime when you click the button, the map view will be returned to the layer extent.
+## Other updates:
+- (update 2022/2/15) Modifying several actions for better creating dashboard.
+- (update 2022/3/3) Modify layer/filter/datasource remove part;
 
-![image](https://user-images.githubusercontent.com/8382478/152116121-23b1a0c7-eff3-4c47-a70d-c087cd88ecf6.png)
-
-### (update 2022/2/10) IconLayer enhanced:
-- Currently, IconLayer can support the visualization of extra icons listed in Mapbox Maki.
-
-### (update 2022/2/15) Modifying several actions:
-- This action modification part is for creating dashboard.
-
-### implementation:
-~~Currently Mapbox access token is provided by the author, but it would be better to add your own Mapbox access token to line 40~~
-
+## implementation:
 In the new version, mapbox is not anymore utilized for map visualization. Instead, we add the support for several open tiles such as the base map provided by 国土地理院 and open street map.
 
-### Ideas and plans:
+## Ideas and plans:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
-- [ ] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
-
+- [x] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
+- [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization;
