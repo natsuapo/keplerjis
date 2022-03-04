@@ -30,6 +30,8 @@ In this demo, the following functions are available:
 #### JISMesh aggregation:
 - For point data in Japan, choosing JIS(Agg) layer type.
   - Loading spatial data -> Choose layer type **JIS(Agg)**
+
+
   ![jismesh](figs/mesh_choose.png)
 
 - You can moving slider to change the mesh size.
@@ -100,4 +102,6 @@ In this demo, the following functions are available:
 ## Ideas and plans:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
 - [x] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
-- [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization;
+- [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
+- [ ] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
+- [ ] Add more processing function to the extended kepler.
