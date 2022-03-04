@@ -101,7 +101,7 @@ In this demo, the following functions are available:
 
 ## Ideas and plans:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
-- [x] Reaggregation function for meshcode level: or to some extent agg visualization layer? (tbc, a little difficult to grapse the overall image)
+- [x] Reaggregation function for meshcode level.
 - [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
 - [ ] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
 - [ ] Add more processing function to the extended kepler.
