@@ -62,6 +62,7 @@ In this demo, the following functions are available:
 
 #### enhanced IconLayer:
 - Currently, IconLayer can support the visualization of extra icons listed in Mapbox Maki.
+![image](https://user-images.githubusercontent.com/8382478/153706447-a4ed91fa-f464-43c2-8022-54680c8b652a.png)
 
 
 ## Data loading and processing:
