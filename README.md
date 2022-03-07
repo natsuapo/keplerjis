@@ -113,3 +113,4 @@ In this demo, the following functions are available:
 - [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
 - [ ] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
 - [ ] Add more processing function to the extended kepler.
+- [ ] Create new layer from filterings. 
