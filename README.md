@@ -84,6 +84,8 @@ In this demo, the following functions are available:
 - Functions will be introduced later. 
 #### generate datasource from text:   
 - This function allows you to paste any wkb/wkt/geojson text and visualize them directly in Kepler. It is more convenient than downloading and uploading data. 
+<img width="1327" alt="image" src="https://user-images.githubusercontent.com/8382478/157616276-83a17846-31b1-424f-ae56-b8c69521b8f3.png">
+
   
 
 ## Basemap visualization:
