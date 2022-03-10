@@ -77,6 +77,14 @@ In this demo, the following functions are available:
 #### Field deleting:
 - After opening the data table of a specific datasource.You can choose to delete any field.
   ![](figs/delete_column.png)
+  
+  
+### Processor functions in processor panel: 
+- Though a lot of processors have been implemented already, I decide not to introduce here due to potential bugs. 
+- Functions will be introduced later. 
+#### generate datasource from text:   
+- This function allows you to paste any wkb/wkt/geojson text and visualize them directly in Kepler. It is more convenient than downloading and uploading data. 
+  
 
 ## Basemap visualization:
 ### Base map of 国土地理院, OSM and Carto Dark
@@ -111,6 +119,6 @@ In this demo, the following functions are available:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
 - [x] Reaggregation function for meshcode level.
 - [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
-- [ ] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
+- [x] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
 - [ ] Add more processing function to the extended kepler.
 - [ ] Create new layer from filterings.
