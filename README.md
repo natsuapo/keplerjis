@@ -89,20 +89,20 @@ In this demo, the following functions are available:
 - (update 2022/3/3) Modify layer/filter/datasource remove part;
 
 ## implementation:
-- Directly implement this repo: 
+- Directly implement this repo:
   - Since it is totally a static website, you can directly clone it and run the html page.
- 
-- Implement to Jupyter environment: 
-  - Map component settings are the same as original Kepler extension in Jupyter, but you need to save your map as an html and then use IFrame to visualize it in Jupyter. 
+
+- Implement to Jupyter environment:
+  - Map component settings are the same as original Kepler extension in Jupyter, but you need to save your map as an html and then use IFrame to visualize it in Jupyter.
   - Firstly, you need to modify the source code of `static/keplergl.html` in the path of keplergl package. Replace `<script src="https://unpkg.com/kepler.gl@2.3.2/umd/keplergl.min.js" crossorigin>` with  `<script src="https://natsuapo.github.io/keplerjis/keplergl.min.js" crossorigin>`
-  - In your Jupyter Notebook, import the IFrame package and official KeplerGl package: 
-  
+  - In your Jupyter Notebook, import the IFrame package and official KeplerGl package:
+
   ```
   from IPython.display import IFrame
   from keplergl import KeplerGl
   ```
-  
-  - Then use the following code example for visualization: 
+
+  - Then use the following code example for visualization:
   ![image](https://user-images.githubusercontent.com/8382478/156770773-a2dfb8cf-d9b7-4b01-90a0-166aca11346f.png)
 
 
@@ -113,4 +113,4 @@ In this demo, the following functions are available:
 - [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
 - [ ] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
 - [ ] Add more processing function to the extended kepler.
-- [ ] Create new layer from filterings. 
+- [ ] Create new layer from filterings.
