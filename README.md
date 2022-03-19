@@ -92,6 +92,7 @@ The enhanced triplayer allows you to directly input any csv file with lon, lat, 
 ## Other updates:
 - (update 2022/2/15) Modifying several actions for better creating dashboard.
 - (update 2022/3/3) Modify layer/filter/datasource remove part;
+- (update 2022/3/18) Update Kepler.gl version from 2.5.4 to 2.5.5 (with more typescript and some new features);
 
 ## implementation:
 - Directly implement this repo:
