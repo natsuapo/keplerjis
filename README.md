@@ -65,6 +65,11 @@ In this demo, the following functions are available:
 ![image](https://user-images.githubusercontent.com/8382478/153706447-a4ed91fa-f464-43c2-8022-54680c8b652a.png)
 
 
+#### (beta) enhanced TripLayer(TrajectoryLayer):
+The enhanced triplayer allows you to directly input any csv file with lon, lat, timestamp and userid for visualizing trajectory.
+
+
+
 ## Data loading and processing:
 
 #### Google takeout data loading:
@@ -110,7 +115,7 @@ In this demo, the following functions are available:
 ## Ideas and plans:
 - [x] Currently, Kepler.gl icon layer is very limited in icon types. Especially, the train label is not available. I am investigating how to add more icons.
 - [x] Reaggregation function for meshcode level.
-- [ ] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
-- [ ] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
+- [x] Trip layer enhancement: will enhance trip layer for eaiser processing and visualization.
+- [x] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
 - [ ] Add more processing function to the extended kepler.
 - [ ] Create new layer from filterings.
