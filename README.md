@@ -120,3 +120,4 @@ The enhanced triplayer allows you to directly input any csv file with lon, lat, 
 - [x] Processor function add: paste wkb or geojson to directly generate a datasource and layer.
 - [ ] Add more processing function to the extended kepler.
 - [ ] Create new layer from filterings.
+- [ ] Support directly loading topojson file. 
