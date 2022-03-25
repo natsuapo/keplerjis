@@ -126,3 +126,5 @@ The enhanced triplayer allows you to directly input any csv file with lon, lat, 
 - [ ] Add more processing function to the extended kepler.
 - [ ] Create new layer from filterings.
 - [x] Support directly loading topojson file. 
+- [ ] Japnese municipality based data visualization.
+- [ ] Enhancing legend part for map data output.
