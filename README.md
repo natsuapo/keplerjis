@@ -64,6 +64,11 @@ In this demo, the following functions are available:
 - Currently, IconLayer can support the visualization of extra icons listed in Mapbox Maki.
 ![image](https://user-images.githubusercontent.com/8382478/153706447-a4ed91fa-f464-43c2-8022-54680c8b652a.png)
 
+#### enhanced GeoJsonLayer:
+- Currently, GeoJsonLayer can support TopoJson format.
+<img width="1427" alt="image" src="https://user-images.githubusercontent.com/8382478/160082352-5b4a9aec-cbdb-475f-b5ef-0c30275ffcf3.png">
+
+
 
 #### (beta) enhanced TripLayer(TrajectoryLayer):
 The enhanced triplayer allows you to directly input any csv file with lon, lat, timestamp and userid for visualizing trajectory.
