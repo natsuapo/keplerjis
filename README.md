@@ -66,9 +66,9 @@ In this demo, the following functions are available:
 
 #### enhanced GeoJsonLayer:
 - Currently, GeoJsonLayer can support TopoJson format.
+  - Different objects are merged into one datasource, in that case it cannot handle overlapped data very well. (but you can filter them by attributes)
+  - I am considering to split different objects into multiple datasources. 
 <img width="1427" alt="image" src="https://user-images.githubusercontent.com/8382478/160082352-5b4a9aec-cbdb-475f-b5ef-0c30275ffcf3.png">
-
-
 
 #### (beta) enhanced TripLayer(TrajectoryLayer):
 The enhanced triplayer allows you to directly input any csv file with lon, lat, timestamp and userid for visualizing trajectory.
