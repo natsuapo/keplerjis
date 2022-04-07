@@ -128,3 +128,4 @@ The enhanced triplayer allows you to directly input any csv file with lon, lat, 
 - [x] Support directly loading topojson file. 
 - [ ] Japnese municipality based data visualization.
 - [ ] Enhancing legend part for map data output.
+- [ ] Add a function to encoding shift-jis. 
