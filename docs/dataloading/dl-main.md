@@ -12,9 +12,9 @@ nav_no_fold: false
 
 In data loading enhancement section, this system provides support for the following types of data sources.
 
-- [TopoJson](topojson)
+<!-- - [TopoJson](topojson)
 - [Google Takeout & KML](googletakeout)
-- [GPX]
+- [GPX] -->
 
 
 
