@@ -1,3 +1,11 @@
+---
+layout: default
+title: Future works
+nav_order: 6
+permalink: /future-work
+
+---
+
 # Limitations and plans:
 
 Most of the current limitations in this system are mentioned in the previous sections. 

@@ -4,11 +4,11 @@ title: Overview
 nav_order: 1
 ---
 
-# Enhancing Kepler.gl for better usage in Japanese GIS analysis  
+# Make Kepler.gl a better GIS tool
 
 ## Introduction  
 
-This system is an adaption of Kepler.gl, which makes it more powerful as a GIS tool especially for spatial data scientists in Japan. The enhancement is made up of the following aspects:  
+This system is an adaption of Kepler.gl, which makes it more powerful as a GIS tool especially for spatial data scientists in Japan. The enhancement is made up of the following aspects: 
 
 - [Data Loading](dl-main)
 - [Base Map](basemap)
