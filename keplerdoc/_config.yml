@@ -1,0 +1,7 @@
+remote_theme: just-the-docs/just-the-docs
+aux_links:
+  "Enhanced Kepler.gl on GitHub":
+    - "https://github.com/natsuapo/keplerjis"
+
+title: Kepler.gl
+baseurl: /topojson
