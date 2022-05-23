@@ -2,11 +2,11 @@
 layout: default
 title: Data loading
 nav_order: 2 
+nav_active_show: 1
 has_children: true
 permalink: /dl-main
-nav_no_fold: false
+nav_no_fold: true
 ---
-
 
 # Data Loading
 
