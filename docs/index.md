@@ -8,7 +8,7 @@ nav_order: 1
 
 ## Introduction  
 
-This system provides an enhancement of Kepler.gl which make it more powerful as a GIS tool, especially for spatial data scientists in Japan. The enhancement is made up of the following aspects:  
+This system is an adaption of Kepler.gl, which makes it more powerful as a GIS tool especially for spatial data scientists in Japan. The enhancement is made up of the following aspects:  
 
 - [Data Loading](dl-main)
 - [Base Map](basemap)
@@ -21,7 +21,7 @@ This system provides an enhancement of Kepler.gl which make it more powerful as 
 - [Implementation](implementation)
 
 - Acknowledgement:
-  - The previous study of this project is presented in ICC 2021 conference. (it is just an abstract, and I plan to extend it to a full paper.)
+  - The previous study of this project is presented in [ICC 2021 conference](https://www.researchgate.net/publication/357023205_Enhancing_Keplergl_for_processing_Google_Maps_Timeline_data). (now it is just an abstract, and I plan to extend it to a full paper.)
 
 ```
 @article{xia2021enhancing,
