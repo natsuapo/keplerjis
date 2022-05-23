@@ -1,3 +1,12 @@
+---
+layout: default
+title: Layer enhancement
+nav_order: 5
+nav_active_show: 2
+has_children: true
+permalink: /layer
+nav_no_fold : true
+--- 
 
 ## Filters
 

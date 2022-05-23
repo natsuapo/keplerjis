@@ -2,9 +2,8 @@
 layout: default
 title: Interaction functions
 nav_order: 5 
-has_children: true
 permalink: /interaction-main
-nav_no_fold: false
+
 ---
 
 # Interaction functions

@@ -43,7 +43,7 @@ nav_order: 2
   - if you only want to use the bundle file. Just replace the official precompiled production UMD (`<script src="https://unpkg.com/kepler.gl/umd/keplergl.min.js" />`) to the following one: 
 
   ```
-    <script src="https://natsuapo.github.io/keplerjis/keplergl.min.js" crossorigin></script>
+    <script src="https://cdn.jsdelivr.net/gh/natsuapo/keplerjis@main/keplergl.min.js" ></script>
   ```
 
   **Notice**: this bundle should have different result with the one built with `yarn start` as it does not include the extra functions in demo-app. In the bundle version, loading data with URL is unavailable. Since official map has the plan to include the URL reading part to the core, so in this moment I do not plan to extend this part. 
@@ -53,7 +53,8 @@ nav_order: 2
   
   - Map component settings are the same as original Kepler extension in Jupyter, but you need to save your map as an html and then use IFrame to visualize it in Jupyter. The detailed process is as follows: 
   
-    - First, you need to modify the source code of `static/keplergl.html` in the path of keplergl python package. Replace `<script src="https://unpkg.com/kepler.gl@2.3.2/umd/keplergl.min.js" crossorigin>` with  `<script src="https://natsuapo.github.io/keplerjis/keplergl.min.js" crossorigin>`
+    - First, you need to modify the source code of `static/keplergl.html` in the path of keplergl python package. Replace `<script src="https://unpkg.com/kepler.gl@2.3.2/umd/keplergl.min.js" crossorigin>` with  `<script src="https://cdn.jsdelivr.net/gh/natsuapo/keplerjis@main/keplergl.min.js" ></script>
+`
     - In your Jupyter Notebook, import the IFrame package and official KeplerGl package:
 
   ```
