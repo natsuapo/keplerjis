@@ -4,6 +4,9 @@
 
 This system is an adaption of Kepler.gl, which makes it more powerful as a GIS tool, especially for spatial data scientists in Japan. The [demo](https://natsuapo.github.io/keplerjis/demo.html) and the [document](https://natsuapo.github.io/keplerjis) are available.
 
+<img width="1397" alt="image" src="https://user-images.githubusercontent.com/8382478/169823138-3ae30de3-2ec2-410d-a314-160364087be0.png">
+
+
 The enhancement is made up of the following aspects:
 
 - [Data Loading](https://natsuapo.github.io/keplerjis/dl-main)
@@ -33,7 +36,7 @@ The enhancement is made up of the following aspects:
 - Contribution:
   - Any contribution to the original [Kepler.gl](https://github.com/keplergl/kepler.gl) is welcome.
   - Any issue and bug report in this [repo](https://github.com/natsuapo/keplerjis/issues) is welcome.
-    - I am still on modifying the code, I will make the repo open in the future.
+    - I am still on modifying the code, I will make the enhanced Kepler.gl repo open in the future.
 
 
 
