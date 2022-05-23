@@ -16,12 +16,17 @@ This system provides an enhancement of Kepler.gl which make it more powerful as 
 - [Data Processing](processing)
 - [Interaction functions](interactions/interaction-main)
 
-## Implementation  
+## Implementation and acknowledgement
 
 - [Implementation](implementation)
-- [Contributing](contributing)
 
-## Acknowledgement: 
-The previous study of this project is presented in ICC 2021 conference.
+- Acknowledgement:
+  - The previous study of this project is presented in ICC 2021 conference.
+
+- Contribution:
+  - Any contribution to the original [Kepler.gl](https://github.com/keplergl/kepler.gl) is welcome.
+  - Any issue and bug report in this [repo](https://github.com/natsuapo/keplerjis/issues) is welcome.
+
+
 
 

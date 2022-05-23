@@ -1,8 +1,15 @@
+---
+layout: default
+title: Interaction functions
+nav_order: 5 
+has_children: true
+permalink: /interaction-main
+nav_no_fold: false
+---
+
 # Interaction functions
 
 Interaction enhancement aims to improve the effectiveness of user manipulation. Notice that some interactions also contains data processing. (for processing functions in data processing side panel, please refer to )
-
-
 
 
 ## Zoom to layer function: 
