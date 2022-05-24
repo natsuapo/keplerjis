@@ -1,7 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 aux_links:
-  "GitHub URL":
-    - "https://github.com/natsuapo/keplerjis"
+  "Demo URL":
+    - "https://natsuapo.github.io/keplerjis/demo.html"
 color_scheme: topo
 title: Enhanced Kepler.gl
 baseurl: keplerjis

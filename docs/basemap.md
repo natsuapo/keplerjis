@@ -14,6 +14,40 @@ The method of switching base map is the same as the original Kepler.gl. The foll
 
 ![image](images/basemap_gsi.png)
 
+## Developing memos
 
+### Using customized tile server in kepler.gl
 
+Kepler.gl is compatible with the customized map format in deck.gl. So the method to add customized map is to modify the default map settings in `default-settings` (I forget if I have modified the code of reading tile maps based with deck.gl format)
 
+### Example of the tile structure: 
+```
+  {
+    id: 'Chirin',
+    label:'国土地理院',
+    url:null,
+    icon:'https://cyberjapandata.gsi.go.jp/xyz/std/0/0/0.png',
+    style:{
+      "center":[139,35],
+      "zoom":10,
+      "version": 8,
+      "sources": {
+        "simple-tiles": {
+          "type": "raster",
+          "tiles":["https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png"],
+          "tileSize": 256
+        }
+      },
+      "layers": [{
+        "id": "simple-tiles",
+        "type": "raster",
+        "source": "simple-tiles",
+        "minzoom": 0,
+        "maxzoom": 23
+      }]
+    }
+  }
+
+```
+
+In the future, I will try to make out how to modify the add customized map part in Kepler.gl to make it possible for user to load customized non-mapbox map.
