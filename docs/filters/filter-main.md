@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Layer enhancement
+title: Filter enhancement
 nav_order: 7
-nav_active_show: 2
-has_children: true
-permalink: /layer
-nav_no_fold : true
 --- 
 
 ## Filters
