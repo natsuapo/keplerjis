@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Implementation
-nav_order: 1
+nav_order: 2
 ---
 
-# System implementation  
+# System implementation
 
 ## Implementation in front-end system
 
