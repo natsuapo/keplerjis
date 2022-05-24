@@ -1,3 +1,11 @@
+---
+layout: default
+title: Layer enhancement
+nav_order: 4
+has_children: true
+permalink: /layer
+--- 
+
 # Layer enhancement
 
 Though Kepler.gl provides several types of layers, which outperforms most of the GIS tools for representing spatial features and can meet the requirement of spatio-temporal visualization in most of the scenarios with the preprocessed data, the layer visualization is either inefficient or lack of features in some use cases, especially in the context of spatio-temporal analysis in Japan. 
