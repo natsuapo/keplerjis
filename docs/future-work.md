@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Future works
-nav_order: 6
+nav_order: 8
 permalink: /future-work
 
 ---

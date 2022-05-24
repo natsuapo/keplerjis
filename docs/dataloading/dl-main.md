@@ -10,7 +10,9 @@ nav_no_fold: true
 
 # Data Loading
 
-In data loading enhancement section, this system provides support for the following types of data sources.
+In data loading enhancement section, this system provides support extra types of data sources.
+
+The data loading method is the same as the original kepler.gl. Users can draw 
 
 <!-- - [TopoJson](topojson)
 - [Google Takeout & KML](googletakeout)
