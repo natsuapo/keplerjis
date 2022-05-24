@@ -15,10 +15,14 @@ Basically, there are two types of GMT data, the raw location history is converte
 Since it meets the column requirement of trajectory data, user can directly convert point layer to trajectory layer. (I am considering to make it a trajectory layer by default)
 ![image](../images/gmt-layer-with-track.png)
 
-The semantic location history file is converted two data sources, which are respectively activity information` representing the OD data of the user, and `visited place information` representing the stay point data. Then several layers are auto generated, among which the stay points are converted to a point layer while the origin-destination pairs are converted to an arc layer.
+The semantic location history file is converted two data sources, which are respectively `activity information` representing the OD data of the user, and `visited place information` representing the stay point data. Then several layers are auto generated, among which the stay points are converted to a point layer while the origin-destination pairs are converted to an arc layer.
 
+
+Stay point data and point layer
 ![image](../images/pt-layer-gmt-stay.png "stay point data")
 
+
+OD data and arc layer
 ![image](../images/arc-layer-gmt-od.png "OD data")
 
 

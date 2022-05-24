@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Future works
+title: Developing plans
 nav_order: 8
 permalink: /future-work
 
