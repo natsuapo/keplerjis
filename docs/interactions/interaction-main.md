@@ -7,6 +7,7 @@ permalink: /interaction-main
 ---
 
 # Interaction functions
+{:.no_toc}
 
 Interaction enhancement aims to improve the effectiveness of user manipulation. Notice that some interactions also contains data processing. (for processing functions in data processing side panel, please refer to the processing section)
 
