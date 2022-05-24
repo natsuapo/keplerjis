@@ -4,7 +4,7 @@ title: Mesh code related layers
 nav_order: 4
 parent: Layer enhancement
 has_children: true
-nav_no_fold : true
+has_toc: false
 ---
 
 # Mesh code related layers

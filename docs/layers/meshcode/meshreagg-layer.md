@@ -3,6 +3,7 @@ layout: default
 title: Mesh re-aggregation layer
 nav_order: 3
 parent: Mesh code related layers
+grand_parent: Layer enhancement
 ---
 
 # Mesh re-aggregation layer

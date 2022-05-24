@@ -2,7 +2,6 @@
 layout: default
 title: Layer enhancement
 nav_order: 4
-nav_active_show: 2
 has_children: true
 permalink: /layer
 nav_no_fold : true
@@ -19,7 +18,7 @@ In this system, several layers are created or enhanced for easier data handling 
 - [Prefecture polygon layer](pref-layer)
 - [Icon layer](icon-layer)
 
-## Developing memos:  
+## Developing memos
 
 To create layers, developers need to add layers in `src/layers`.
 
