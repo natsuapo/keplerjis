@@ -1,0 +1,1 @@
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QSpatial processing function items are available after users choose the column in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q type or the latitude, longitude pairs.\\E$"}

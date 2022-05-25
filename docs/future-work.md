@@ -6,7 +6,7 @@ permalink: /future-work
 
 ---
 
-# Limitations and plans:
+# Limitations and plan roadmap:
 
 Most of the current limitations in this system are mentioned in the previous sections. 
 
@@ -19,6 +19,8 @@ Here I list a memo of the extra system enhancement function application and dema
 - [x] Support directly loading TopoJSON file.
 - [x] Japanese municipality based data visualization.
 
+
+- [ ] Add better UI for error cases. 
 - [ ] Add more processing function to the extended Kepler.
 - [ ] Create new layer from filterings.
 - [ ] Enhancing legend part for map data output.
