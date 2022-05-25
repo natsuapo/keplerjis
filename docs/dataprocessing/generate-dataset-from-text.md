@@ -1,3 +1,11 @@
+---
+layout: default
+title: Generate dataset from text
+nav_order: 1 
+parent: Data processing
+---
+
+
 
 # Generate dataset from text
 
