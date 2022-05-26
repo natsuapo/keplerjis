@@ -4,7 +4,7 @@ title: Overview
 nav_order: 1
 ---
 
-# Make Kepler.gl a better GIS tool
+# Make kepler.gl a better GIS tool
 
 ## Introduction  
 
@@ -35,6 +35,6 @@ This system is an adaption of Kepler.gl, which makes it more powerful as a GIS t
 ```
 
 - Contribution:
-  - Any contribution to the original [Kepler.gl](https://github.com/keplergl/kepler.gl) is welcome.
+  - Any contribution to the original [kepler.gl](https://github.com/keplergl/kepler.gl) is welcome.
   - Any issue and bug report in this [repo](https://github.com/natsuapo/keplerjis/issues) is welcome.
-    - I am still on modifying the code, I will make the repo open in the future.
+    - I am still on modifying the code, I will make the forked kepler.gl repo open in the future.

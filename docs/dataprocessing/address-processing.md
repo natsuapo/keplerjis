@@ -7,8 +7,12 @@ parent: Data processing
 
 # Address related functions
 
-Address related functions include those functions that modify address data, geocoding, and generate address data with coordinates (reverse geocoding) or other information (API).  
+Address related functions include those functions that modify address data, geocoding, and generate address data with coordinates (reverse geocoding) or other information (API). Since there is no column type of address, all address related functions are available in the item list of `string` type columns. 
 
-Not like other data processing which can be conducted offline, most of the address related functions need to call API to get extra data. 
+Not like other data processing which can be conducted offline, most of the address related functions need to call API to get extra data.
 
-In this system, the address related functions mainly use Google API and aims to process Google related data. (e.g. GMT data)
+In this system, the address related functions mainly use Google API and aims to process Google related data (e.g. GMT data). Since google API does not support CORS, in the previous research and demo I built a simple server to forward Google API results, which might against the terms of use of Google API if I open it in the demo. So in the current stage the address related functions, especially those using Google API, are out of service in the demo app. 
+
+Nevertheless, I have the plan to make some functions offline, and make the API request part more flexible, so as the users can request the data from their own server.
+
+
