@@ -16,6 +16,9 @@ This system is an adaption of Kepler.gl, which makes it more powerful as a GIS t
 - [Data Processing](processing)
 - [Interaction functions](interaction-main)
 
+## Demo
+A static browser [demo](https://natsuapo.github.io/keplerjis/demo.html) is available. The website is built with loading the minimized UMD file. Which is different from the building method of the [official demo](https://kepler.gl/demo).
+
 ## Implementation and acknowledgement
 
 - [Implementation](implementation)
