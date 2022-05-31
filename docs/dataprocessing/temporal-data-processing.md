@@ -19,3 +19,10 @@ Time flooring is utilized to floor the time information to the unit that users d
 
 ![image](../images/time_flooring.png)
 
+
+### Join another dateset with time span
+This is a function for masking temporal data with multiple time windows. To use this function, you need to set the temporal data column of the selected data source, and the start time column, end time column of the joint data source. Then it will extract all rows from the target source with the timestamp between the start time and the end time, and assign other attributes of the joint data source. 
+
+A general use case is assuming we have the information of several big events with the start time and end time, we can use this function to extract the temporal data only during the big events. The following figure show another use case with GMT data: for GMT semantic data (OD) and GMT raw data (GPS), we can use this function to extract the trajectories only during the OD, and assign semantic information to the extracted GPS points.
+
+![image](../images/timespan_join.png)
