@@ -26,5 +26,5 @@ Since it is a totally new function developed by myself, the path is not availabl
 
 Different from filters and visualization updates that will be refreshed for users' each action, the processing function will be called only when users click the process button.
 
-In `default-settings`, I added an item of `Processing_LIST`, which controls the processing function list for each column type. 
+In `default-settings`, I added an item of `PROCESS_LIST`, which controls the processing function list for each column type. 
 
