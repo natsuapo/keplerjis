@@ -7,6 +7,10 @@ parent: Data processing
 
 # Address related functions
 
+
+1. TOC
+{:toc}
+
 Address related functions include those functions that modify address data, geocoding, and generate address data with coordinates (reverse geocoding) or other information (API). Since there is no column type of address, all address related functions are available in the item list of `string` type columns. 
 
 Not like other data processing which can be conducted offline, most of the address related functions need to call API to get extra data.
@@ -28,6 +32,18 @@ The demo of this function requires users to input the level of administrative ar
 This function is to utilize place ID to get the POI type, so that the detailed POI will be categorized to the POI types for data science use　and at the same time desensitize the personal information (user can choose to delete the previous column, or directly set the column as the POI name column to replace it.)
 
 ![image](../images/place_to_place_type%20.png)
+
+
+## GeoCoding using Google API
+
+This function is to convert the address to coordinates using Google API. This API requires two output columns to respectively store the longitude and latitude.
+
+![image](../images/geocoding_result.png)
+
+Tips: Basically there are two API with the similar function. Coordinates could be acquired by text search via Google Place API, an API that will return a place object with the input text, no matter what the user input is a POI name, address or abbreviation, while it can also be acquired by GeoCoding API, which only accepts address inputs and the output are coordinates. Though geocoding API is more restricted in input data and has no semantic information output, it can return the coordinates even the there is no POI in address users query, and is cheaper than place API. 
+
+
+
 
 
 

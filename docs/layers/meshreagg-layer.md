@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mesh re-aggregation layer
-nav_order: 2
+nav_order: 3
 parent: Mesh code related layers
 grand_parent: Layer enhancement
 ---
@@ -20,4 +20,4 @@ Similar to mesh aggregation layer, the mesh level is controlled by the slider:
 
 Mesh re-aggregation layer outperforms mesh code layer with the same input, more functions and less rendering times. But since the mesh re-aggregation layer keeps the same mesh code level for all grids, and automatically do aggregation for the same mesh code, mesh code layer is still more suitable for some application scenario.
 
-Currently, up-scaling of the mesh code is unavailable, so please use the mesh code level smaller than the original mesh code level of your raw data. This limitation will be handled in the future.
+Currently, mesh code up-scaling is not available, so please use the mesh code level smaller than the original mesh code level of your raw data. This limitation will be handled in the future.

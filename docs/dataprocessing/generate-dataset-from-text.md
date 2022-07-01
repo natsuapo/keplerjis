@@ -20,6 +20,14 @@ For GeoJSON data, it will be processed with the same output as the GeoJSON file,
 
 ![image](../images/fukushima_geojson.png)
 
+**Hint**: A collaborative application of this function with other functions in Kepler.gl is to get a data source from the geometry user draw in Kepler.gl.
+
+
+
+
+
+
+
 
 
 

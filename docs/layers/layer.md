@@ -24,10 +24,3 @@ To create layers, developers need to add layers in `src/layers`.
 It is also necessary to modify the side-panel for layer settings in `src/components/side-panel/layer-panel/layer-configurator.js`
 
 
-
-
-
-
-
-
-

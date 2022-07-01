@@ -42,3 +42,4 @@ A static browser [demo](https://natsuapo.github.io/keplerjis/demo.html) is avail
   - Any contribution to the original [kepler.gl](https://github.com/keplergl/kepler.gl) is welcome.
   - Any issue and bug report in this [repo](https://github.com/natsuapo/keplerjis/issues) is welcome.
     - I am still on modifying the code, I will make the forked kepler.gl repo open in the future.
+

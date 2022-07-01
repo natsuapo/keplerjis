@@ -12,3 +12,7 @@ Trajectory layer shares the similar visualization results with trip layer, but i
 ![image](../images/trajectory_layer.png)
 
 Since the data is aggregated and processed once the layer is initialized, it has several limitations such as the unavailability of filtering (data could be filtered, but cannot interact with trajectory animation), color setting based on fields etc. I will try to fix these issues in the future development.  
+
+
+
+
